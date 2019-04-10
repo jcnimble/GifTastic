@@ -28,7 +28,7 @@ background-color: yellow;
 margin: 10px;
 border-radius: 15px;
 padding: 10px;
-
+text-transform: capitalize;
 }
 
 #add-fail{
