@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+background-color: black;
+}
+
+.jumbotron{
+    margin-top:20px;
+    background-image:url('../images/oops-4.1-1.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#click-on{
+    color:white;
+}
+
+#fail-btns {
+padding: 20px;
+margin-bottom: 20px;
+}
+
+
+.fail-btn{
+background-color: yellow;
+margin: 10px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+#add-fail{
+background-color: rgb(67, 67, 238);
+margin: 10px;
+border-radius: 15px;
+padding: 10px; 
+}
+
+#fail-form{
+    text-align: center;
+    color: white;
+}
+
+.col-md-3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+.col-md-3 img{
+padding: 0;
+max-width: 100%;
+height: auto;
+}
+
+.col-md-3 p{
+color: white;
+}

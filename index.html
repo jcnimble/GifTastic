@@ -13,28 +13,45 @@
 
 <body>
 
-  <h1>Oops!</h1>
-  <h2>A Gallery of Epic Failure</h2>
+  <div class="container">
+    <div id="heading" class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Oops!</h1>
+        <p class="lead">A Gallery of Epic Fails</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12" id="fail-btns">
+        <h3 id="click-on">Click On One of These Epic Fail Categories:</h3>
+        <div id="buttons-view"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <form id="fail-form">
+          <label for="fail-input">Have A Fail Idea? Add It Here:</label>
+          <input type="text" id="fail-input">
+           <input id="add-fail" type="submit" value="Add to the Gallery">
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12" id="gif-background">
+        <div id="gifs-appear-here"></div>
+      </div>
+    </div>
 
 
-  <div id="buttons-view"></div>
-
-  <form id="fail-form">
-    <label for="fail-input">Enjoy the show, search for a fail:</label>
-    <input type="text" id="fail-input">
-    <br>
-
-    <!-- Button triggers new movie to be added -->
-    <input id="add-fail" type="submit" value="fail-search">
-  </form>
-
-
-  <div id="gifs-appear-here"></div>
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="assets\javascript\app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets\javascript\app.js"></script>
+
+  </div>
 </body>
 
 </html>
