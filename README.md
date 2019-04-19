@@ -1,6 +1,6 @@
 # GifTastic
 Homework Assignment
-I used a lot of the activities we did in class to complete this assignment -- which is what I liked.  I didn't have to go searcging for random code pieces that I wasn't really familiar with.  This really reinforced the learning in class.
+I used a lot of the activities we did in class to complete this assignment -- which is what I liked.  I didn't have to go searching for random code pieces that I wasn't really familiar with.  This really reinforced the learning in class.
 
 I started with the activity that had movie quotes and actors using the Giphy API. I wanted to make sure my API key worked. Then I experimented with different searches. I decided on doing "Epic Fails" in honor of my Bootcamp experience thus far.  I wanted all the gifs pulled to be fails in different categories. So I built in "fail+" in the search line of the queryURL. So the user would just be typing in a category and within the category it would only be fails.
 
